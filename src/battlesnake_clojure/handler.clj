@@ -10,7 +10,7 @@
   [request]
   {:status 200
    :body {:move "right"
-          :taunt "shit!"}})
+          :taunt "battlesnake-clojure!"}})
 
 (defn start
   [request]
@@ -22,7 +22,7 @@
 
 (defroutes app-routes
   (GET "/" [] "Clojure BattleSnake")
-  (POST "/start" [] start)
+  (POST "/start" [] start)`
   (POST "/move" [] move)
   (route/not-found "Not Found"))
 
