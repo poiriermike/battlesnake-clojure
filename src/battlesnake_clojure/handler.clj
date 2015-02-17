@@ -15,14 +15,14 @@
 (defn start
   [request]
   {:status 200
-   :body {:name SNAKE
+   :body {:name "battlesnake-clojure"
           :color "#ff00ff"
           :head_url "http://example.com"
           :taunt "battlesnake-clojure!"}})
 
 (defroutes app-routes
   (GET "/" [] "Clojure BattleSnake")
-  (POST "/start" [] start)`
+  (POST "/start" [] start)
   (POST "/move" [] move)
   (route/not-found "Not Found"))
 

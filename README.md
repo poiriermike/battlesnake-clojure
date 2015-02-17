@@ -13,7 +13,7 @@ Fork and clone this repo:
 
 ```
 git clone https://github.com/sendwithus/battlesnake-clojure.git
-cd battlesnake-ruby
+cd battlesnake-clojure
 ```
 
 Install [Leiningen](http://leiningen.org/)
