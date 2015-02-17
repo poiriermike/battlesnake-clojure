@@ -10,7 +10,6 @@
   :ring {:handler battlesnake-clojure.handler/app
          :auto-reload? true
          :auto-refresh? true}
-  :main battlesnake-clojure.server
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]]}})
